@@ -1,12 +1,12 @@
 # The-DOM-Events-and-CSS-for-Forms
 
-##JavaScript HTML DOM EventListener
+## JavaScript HTML DOM EventListener
 
 1. Syntax: What are the three parameters (arguments) of the addEventListener method?
 
    type of the event, the function we want to call when the event occurs, and a boolean value that determines whether to use event bubbling or event capturing
 
-2.. How do you remove an event listener from an element? "removeEventListener()"
+2. How do you remove an event listener from an element? "removeEventListener()"
 
    for event handlers attached with "addEventListener()"
 
@@ -24,7 +24,7 @@ I remember using keydown and keypress to control our sprites in level one. Im pr
 
 wheel
 
-On my mouse I use this feature all the time. Im interested in it because I see it's used across the web basically everywhere.
+On my mouse I use this feature all the time. Im interested in it because I see it's used across the web.
 
 
 
@@ -55,13 +55,29 @@ On my mouse I use this feature all the time. Im interested in it because I see i
  
 5. There is a subtle difference between using Standard vs. Arrow Functions in event listeners. What does this refer to in the context of a function used as an Event Handler?
 
-   Standard:
+   Standard: (function (e)) refers to the actual element itself 
 
-   Arrow:
+   Arrow: e => Refers to the whole global window object itself
 
 7. What are the classes that were used to center the div horizontally and vertically?
 
+   Bootstrap
 
+   Horizontally:
+
+   by using a container div and making it a flex container and justifying it to center horiz.
+   
+   ```
+   <div class="container d-flex justify-content-center">
+   ```
+
+   Horizontally & Vertically:
+
+   ```
+   <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+   
 8. What does the number at the end of the col-* class name mean? (For example, what does the 8 at the end of col-md-8 mean?)
+
+   It means it will take up the space of 8 of the 12 columns on bootstrap 5 (2/3)
 
 
